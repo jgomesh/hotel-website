@@ -1,8 +1,9 @@
-MDB5
-Version: FREE 4.0.0
+Esse projeto foi desenvolvido com o objetivo de fazer uma landing page para um hotel.
 
-Documentation:
-https://mdbootstrap.com/docs/standard/
+Foram usadas as ferramentas:
 
-Contact:
-office@mdbootstrap.com
+_HTML
+_CSS
+_JAVASCRIPT
+_BOOTSTRAP
+

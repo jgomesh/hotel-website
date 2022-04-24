@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>My Hotel</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+   <header class="mb-5">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-xl navbar-dark">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Left links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Entretenimento</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Academia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quartos para alugar</a>
+            </li>
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+
+        <!-- Right elements -->
+        <div class="d-flex align-items-center">
+          <!-- Icon -->
+          <a class="text-white me-3" href="#">
+            <i class="fas fa-shopping-cart"></i>
+          </a>
+
+          <!-- Notifications -->
+          <div class="dropdown">
+            <a
+              class="text-white me-3 dropdown-toggle hidden-arrow"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-mdb-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fas fa-bell"></i>
+              <span class="badge rounded-pill badge-notification bg-danger">1</span>
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <li>
+                <a class="dropdown-item" href="#">Minhas reservas</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Bônus</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Configurações</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Avatar -->
+          <div class="dropdown">
+            <a
+              class="dropdown-toggle d-flex align-items-center hidden-arrow"
+              href="#"
+              id="navbarDropdownMenuAvatar"
+              role="button"
+              data-mdb-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                class="rounded-circle"
+                height="25"
+                alt="Black and White Portrait of a Man"
+                loading="lazy"
+              />
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="navbarDropdownMenuAvatar"
+            >
+              <li>
+                <a class="dropdown-item" href="#">Meu perfil</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Fatura</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Logout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Right elements -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+
+    <!-- Carousel wrapper -->
+    <div id="carouselBasicExample" class="carousel slide carousel-fade shadow-5-strong" data-mdb-ride="carousel">
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-mdb-target="#carouselBasicExample"
+          data-mdb-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-mdb-target="#carouselBasicExample"
+          data-mdb-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-mdb-target="#carouselBasicExample"
+          data-mdb-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+
+      <!-- Inner -->
+      <div class="carousel-inner">
+        <!-- Single item -->
+        <div class="carousel-item active">
+          <div class="mask" style="background-color: hsla(0, 0%, 0%, 0.233);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-center text-white">
+                <h1>Passe alguns dias no paraiso</h1>
+                <button type="button" class="btn btn-outline-ligth text-white" data-mdb-ripple-color="light">
+                  Veja mais!
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <!-- Single item -->
+        <div class="carousel-item">
+          <div class="mask" style="background-color: hsla(0, 0%, 0%, 0.233);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-center text-white">
+                <h1>Área de lazer completa</h1>
+                <button type="button" class="btn btn-outline-ligth text-white" data-mdb-ripple-color="light">
+                  Veja mais!
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <div class="mask" style="background-color: hsla(0, 0%, 0%, 0.212);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-center text-white">
+                <h1>Piscina externa</h1>
+                <button type="button" class="btn btn-outline-ligth text-white" data-mdb-ripple-color="light">
+                  Veja mais!
+                </button>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- Inner -->
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      </div>
+    </div>
+   </header>
+
+   <main>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-7 mb-4">
+          <div class="bg-image hover-overlay ripple shadow-1-strong rounded-5" data-mdb-ripple-color="light">
+            <img src="./imgs/cafe-manha2 .jpg" class="img-fluid alt="Louvre" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-5">
+          <h3>Café da manha incluso</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis eaque, ad, odit ea in repellat qui </p>
+          <p><strong>Lorem ipsum dolor sit amet </strong></p>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita reprehenderit eaque inventore optio, quaerat commodi animi, hic exp</p>
+        </div>
+      </div>
+
+      <hr class="my-5" />
+
+      <h4 class="mb-5 text-center">Quartos disponíveis</h4>
+
+      <div class="row gx-lg-5 text-center mb-5">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="./imgs/mky-moody-AUF6Gl4wwzA-unsplash.jpg" class="img-fluid h-100"/>
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Quarto Família</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#!" class="btn btn-primary">Reserve</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="./imgs/roberto-nickson-emqnSQwQQDo-unsplash.jpg" class="img-fluid h-100"/>
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Quarto Executivo</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#!" class="btn btn-primary">Reserve</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="./imgs/steven-ungermann-aRT5UCf2MYY-unsplash.jpg" class="img-fluid h-100"/>
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Quarto Casal</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#!" class="btn btn-primary">Reserve</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-5" />
+
+      <h4 class="mb-5 text-center mb-5">Cadastre-se e faça sua reserva</h4>
+
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <!-- Name input -->
+            <div class="form-outline mb-4">
+              <input type="text" id="form4Example1" class="form-control" />
+              <label class="form-label" for="form4Example1">Name</label>
+            </div>
+          
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form4Example2" class="form-control" />
+              <label class="form-label" for="form4Example2">Email address</label>
+            </div>
+          
+            <!-- Message input -->
+            <div class="form-outline mb-4">
+              <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+              <label class="form-label" for="form4Example3">Message</label>
+            </div>
+          
+            <!-- Checkbox -->
+            <div class="form-check d-flex justify-content-center mb-4">
+              <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+              <label class="form-check-label" for="form4Example4">
+                Send me a copy of this message
+              </label>
+            </div>
+          
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+   </main>
+
+    <!-- Footer -->
+   <footer class=" text-center " style="background-color:#dffbfb;">
+    <!-- Grid container -->
+    <div class="container p-4">
+
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+        <!-- Github -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="#!" role="button"><i class="fab fa-github"></i></a>
+      </section>
+      <!-- Section: Social media -->
+
+
+
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+          distinctio earum repellat quaerat voluptatibus placeat nam,
+          commodi optio pariatur est quia magnam eum harum corrupti dicta,
+          aliquam sequi voluptate quas.
+        </p>
+      </section>
+      <!-- Section: Text -->
+
+
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2020 Copyright:
+      <a class="text-dark" href="#">João Otávio Gomes Hugill</a>
+    </div>
+    <!-- Copyright -->
+
+   </footer>
+   <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
